@@ -8,16 +8,16 @@
   $db = dbconnect($hostname,$db_name,$db_user,$db_passwd);
   if ($db)
   {
-    $nome = htmlspecialchars($_GET["name"]);
-    $email = $_GET["email"];
-    $pwd1 = $_GET["password"];
-    $pwd2 = $_GET["confirm_password"];
+    $nome = htmlspecialchars($_POST["name"]);
+    $email = $_POST["email"];
+    $pwd1 = $_POST["password"];
+    $pwd2 = $_POST["confirm_password"];
     $error = 0;
     //$x = strcmp("$pdw1", "$pwd2");
 
     $select = mysql_query("SELECT email FROM users WHERE email = '$email';");
 
-    if (mysql_num_rows($select))
+    if (mysql_num_rows($select)>0)
     {
       header("Location:register.php?error=1&NAME=$nome");
     }

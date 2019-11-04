@@ -44,9 +44,9 @@
         <li class="active"><a href="#">Home</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-      	<li><a href="#">Logout</a>
+      	<li><a href="#">Login</a>
       	<li><a href="#">Post blog</a>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Welcome Duarte Jerónimo</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
       </ul>
     </div>
   </div>

@@ -9,9 +9,9 @@
   if ($db)
   {
     $nome = htmlspecialchars($_GET["name"]);
-    $email = $_GET["mail"];
-    $pwd1 = $_GET["pwd"];
-    $pwd2 = $_GET["pwdcf"];
+    $email = $_GET["email"];
+    $pwd1 = $_GET["password"];
+    $pwd2 = $_GET["confirm_password"];
     $error = 0;
     //$x = strcmp("$pdw1", "$pwd2");
 

@@ -142,13 +142,12 @@
 </head>
 <body>
 <div class="signup-form">
-    <form action="register_action.php" method="post">
+    <form action="register_action.php" method="POST">
 		<h2>Register</h2>
 		<p class="hint-text">Create your account. It's free and only takes a minute.</p>
         <div class="form-group">
 			<div class="row">
 				<div class="col-xs-6"><input type="text" class="form-control" name="name" placeholder="Name" required="required"></div>
-				
 			</div>
         </div>
         <div class="form-group">
